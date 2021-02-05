@@ -1,0 +1,28 @@
+.box {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.red {
+  background-color: red;
+  z-index: 1;
+}
+.blue {
+  left: 20px;
+  top: 20px;
+  background-color: blue;
+  z-index: 2;
+}
+.orange {
+  left: 40px;
+  top: 40px;
+  background-color: orange;
+  z-index: 3;
+}
+.green {
+  left: 60px;
+  top: 60px;
+  background-color: green;
+  z-index: 4;
+}
